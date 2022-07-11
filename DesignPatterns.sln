@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{F5B7B090-9B24-488F-ACBB-7D7610790E3A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{E75171A8-C220-4DD6-99F3-C97A8F11149E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{691B66F4-330F-4F59-AC7D-445B292EAC8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{F5B7B090-9B24-488F-ACBB-7D7610790E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5B7B090-9B24-488F-ACBB-7D7610790E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5B7B090-9B24-488F-ACBB-7D7610790E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691B66F4-330F-4F59-AC7D-445B292EAC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691B66F4-330F-4F59-AC7D-445B292EAC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691B66F4-330F-4F59-AC7D-445B292EAC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691B66F4-330F-4F59-AC7D-445B292EAC8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F5B7B090-9B24-488F-ACBB-7D7610790E3A} = {3CD3659F-EB89-4C70-A265-FA9137962D40}
+		{691B66F4-330F-4F59-AC7D-445B292EAC8E} = {E75171A8-C220-4DD6-99F3-C97A8F11149E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C322421-FDE0-4DE9-B544-58E90E7B0277}
